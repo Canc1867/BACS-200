@@ -29,3 +29,10 @@ footer a {
 h2 {
     color: #003366;
 }
+
+section a {
+    background-color: #003366;
+    color: #ffbf00;
+    border-radius: 2pt
+}
+
