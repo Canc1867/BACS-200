@@ -1,6 +1,6 @@
 header {
     color: blue;
-    background-color: #ffcc00;
+    background-color: #ffbf00;
     border-radius: 25pt;
     font-size: 15pt;
     text-align: center;    
@@ -11,7 +11,7 @@ html {
 }
 
 main {
-    background-color: #ffcc00;
+    background-color: #ffbf00;
 }
 
 a {
