@@ -7,7 +7,7 @@ header {
 }
 
 html {
-    background-color: blue;
+    background-color: #003366;
 }
 
 main {
@@ -19,5 +19,13 @@ a {
 }
 
 h1 {
-    color: blue;
+    color: #003366;
+}
+
+footer a {
+    color: #ffbf00;
+}
+
+h2 {
+    color: #003366;
 }
