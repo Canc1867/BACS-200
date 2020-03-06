@@ -1,0 +1,23 @@
+header {
+    color: blue;
+    background-color: yellow;
+    border-radius: 25pt;
+    font-size: 15pt;
+    text-align: center;    
+}
+
+html {
+    background-color: blue;
+}
+
+main {
+    background-color: yellow;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    color: blue;
+}
