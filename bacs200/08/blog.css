@@ -1,0 +1,34 @@
+aside {
+    font-size: 20pt;
+    text-align: center;
+    background-color: #ffbf00;
+    color: #003366;
+}
+
+header h2 {
+    color: #003366;
+    text-align: center;
+    font-size: 25pt;
+    font-family:fantasy;
+    background-color: #ffbf00;
+}
+
+section {
+    background-color: #ffbf00;
+    color: #003366;
+    font-family: fantasy
+}
+
+header h1 {
+    background-color: #003366;
+    color: #fbbf00;
+}
+
+footer {
+    background-color: #003366;
+    color: #fbbf00;
+}
+
+footer a {
+    color: #fbbf00;
+}
