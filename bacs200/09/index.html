@@ -1,52 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- FIX LINKS IN FILE? -->
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Leah Myers Project 9 Hair We Share</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="https://getbootstrap.com/docs/4.4/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.4/examples/jumbotron/jumbotron.css" rel="stylesheet">
+    <link href="project9.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Bootstrap Saves You Time</h1>
-    <p>Create your pages quickly with a standard look that make your readers feel
-        comfortable</p>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+        <a class="navbar-brand" href="../index.html">Leah Myers BACS 200 Project 9 <span class="badge badge-light">New</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <h2>Home</h2>
-            <p>dsafldsafkfdsa
-                dsafdafsdsaf
-                dsaf
-                adsf
-            </p>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <h2>Profile</h2>
-        </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <h2>Contact</h2>
-        </div>
-    </div>
+    </nav>
 
-    <footer>
-        <a href="https://getbootstrap.com/">Bootstrap Website</a>
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-7">
+                        <h1 class="display-3">Hair We Share</h1>
+                        <p>Value Proposition: Combating the effects of medical hair loss.</p>
+                        <p>
+                            Vision: To provide quality solutions to medical hair loss for anyone in the USA that needs them, free of charge. Hair We Share aims to restore the confidence of those that have lost hair due to medical treatments.
+                        </p>
+                        <p><a class="btn btn-primary btn-lg" href="https://hairweshare.org/" role="button">Visit Their Website &raquo;</a></p>
+                    </div>
+                    <div class="col-6 col-md-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://hairweshare.org/wp-content/uploads/2019/04/Michelle.jpg" alt="A picture of a client of Hair We Share recieving their wig.">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://hairweshare.org/wp-content/uploads/2019/04/kaily.png" alt="A picture of a client of Hair We Share recieving their wig.">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://hairweshare.org/wp-content/uploads/2019/04/kaylee.jpg" alt="A picture of a client of Hair We Share recieving their wig.">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <h1>How Do They Do It?</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Hair Donations</h2>
+                    <p>Hair We Share accepts hair that is:</p>
+                    <ul>
+                        <li>At least 12 inches long</li>
+                        <li>Without bleach or highlights</li>
+                        <li>Hair that is a natural color (Ex: Blonde, Brown, Grey)</li>
+                    </ul>
+                    <p><a class="btn btn-secondary" href="https://hairweshare.org/donate-to-hair-we-share/" role="button">Donate Hair &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Monetary Donations</h2>
+                    <p>Alongside hair donations, Hair We Share uses donations to fund the creation of their wigs. This allows them to provide their wigs free of charge to those who need them. They ask for a minimum donation of $25 with each ponytail, but all donations are welcome.</p>
+                    <p><a class="btn btn-secondary" href="https://www.paypal.com/paypalme2/hairweshare" role="button">Make a Donation &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Tracking Program</h2>
+                    <p>If you donate $125 with your hair, you will get updates about your hair. You can see your hair in a wig within 6 months. Rarely, you may even get to see the recipient of your wig!</p>
+                    <p><a class="btn btn-secondary" href="https://hairweshare.org/adopt-a-ponytail/" role="button">Adopt a Ponytail &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr>
+            <br>
+            <h1>How Do You Get Involved?</h1>
+            <div class="row">
+                <div class="container">
+                    <p>As mentioned above, the best ways are to make monetary and/or hair donations. To prepare for these donations you can:</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Grow Your Hair &rarr;</h2>
+                    <p>As mentioned earlier, you should grow your hair out to at least 12 inches before making a donation. Also, please clean and dry your hair before you send it to Hair We Share. </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Make A Donation &rarr;</h2>
+                    <p>If you are ready to cut your hair, please be sure to include a $25 donation minimum with it to ensure that Hair We Share can continue to produce quality wigs for those in need.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Track Your Ponytail</h2>
+                    <p>Please consider making a donation of $125 to be able to track your hair and see the wig it becomes a part of.</p>
+                </div>
+            </div>
+            <hr>
+        </div> <!-- /container -->
+        <div class="container">
+            <br>
+            <img src="https://hairweshare.org/wp-content/uploads/2019/05/correct-way-to-cut-hair.jpg" alt="This is an image of someone cutting their hair into donatable ponytails." style="width: 250px;">
+            <p>Hair We Share can be reached at:</p>
+            <h1>Contact Information</h1>
+            <ul id="ContactInformation">
+                <li><strong>4 Expressway Plaza, Suite LL14</strong> Roselyn Heights, NY 11577</li>
+                <li>By Phone At: (516) 484-8483</li>
+                <li>By Email At: care@hairweshare.org</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+
+    </main>
+
+    <footer class="container">
+        <p>Page Created by Leah Myers using Bootstrap Templates. Images are from the Hair We Share Web Site.</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <script>
+        window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+</body></html>
