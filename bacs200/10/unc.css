@@ -1,0 +1,38 @@
+header {
+    color: deepskyblue;
+    background-color: black;
+    border-radius: 25pt;
+    font-size: 15pt;
+    text-align: center;    
+}
+
+html {
+    background-color: deepskyblue;
+}
+
+main {
+    background-color: black;
+}
+
+a {
+    color: deepskyblue;
+}
+
+h1 {
+    color: deepskyblue;
+}
+
+footer a {
+    color: deepskyblue;
+}
+
+h2 {
+    color: deepskyblue;
+}
+
+section a {
+    background-color: deepskyblue;
+    color: aliceblue;
+    border-radius: 2pt
+}
+
