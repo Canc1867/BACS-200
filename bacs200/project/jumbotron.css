@@ -1,0 +1,59 @@
+:root {
+    --MyersMaroon: #610404;
+    --MyersBrown: #af9164;
+    --MyersTan: #f7f3e3;
+}
+
+br {
+    clear: both;
+}
+
+#ContactInformation {
+    list-style: none;
+}
+
+img {
+    float: right;
+}
+
+#carousel-item {
+    float: right;
+}
+
+.jumbotron {
+    background-color: deepskyblue;
+}
+
+* {
+    color: black;
+}
+
+body {
+    background-color: deepskyblue;
+}
+
+.btn {
+    background-color: black;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-left: 1px solid var(--MyersBrown);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
